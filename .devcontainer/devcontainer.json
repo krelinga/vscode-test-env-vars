@@ -6,7 +6,9 @@
 	"image": "mcr.microsoft.com/devcontainers/universal:2-linux",
 
 	"remoteEnv": {
-		"TEST_VAR": "${localEnv:TEST_VAR:no_test_var_set}"
+		"TEST_VAR": "${localEnv:TEST_VAR:no_test_var_set}",
+		"TEST_REMOTE_VAR": "${localEnv:TEST_REMOTE_VAR:no_test_remote_var_set}"
+
 	}
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
